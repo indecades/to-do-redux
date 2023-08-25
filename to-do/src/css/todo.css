@@ -1,0 +1,49 @@
+.heading {
+	font-family: cursive;
+	font-size: xxx-large;
+	color: black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-top: 3px;
+	color: rgb(221, 120, 26);
+	border-style: dashed;
+	border-color: bisque;
+	text-decoration: wavy;
+}
+/*styling the font and size of the text also adding padding and margin to align the text also adding a border and changing the text color*/
+.App {
+	max-width: 600px;
+	margin: auto;
+	background-image: url("https://i.pinimg.com/736x/26/1a/02/261a02557aac4051ffcd091fee0af13a.jpg");
+}
+/*using css to create a smaller page container and changing the background of the whole container to an image*/
+input {
+	padding: 7px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	background-color: rgba(249, 193, 110, 0.833);
+	font-family: cursive;
+	margin-bottom: 10px;
+}
+/*adding padding to the input box and adjusting it using margin changing the font of the placeholder and styling the input color*/
+button {
+	padding: 7px;
+	font-family: cursive;
+	background-color: rgba(240, 191, 158, 0.779);
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+/*adding padding to all the buttons and rounding the corners as well as adding margin and changing the font of the text and background color*/
+li {
+	font-family: cursive;
+	color: rgb(237, 163, 66);
+	font-size: large;
+}
+/*changing the font of the list items and color and adjusting the font size of the items*/
+button:hover {
+	padding: 5px;
+	color: rgb(250, 214, 162);
+}
+/*if the user hovers over the button the padding will be adjusted to 2px smaller and the color of the text will change*/
